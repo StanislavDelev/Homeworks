@@ -12,5 +12,7 @@ public class Task1 {
         width = scanner.nextDouble();
         double area = length*width;
         System.out.println("Area = "+area);
+        double perimeter = (length+width)*2;
+        System.out.println("Perimeter = "+perimeter);
     }
 }
